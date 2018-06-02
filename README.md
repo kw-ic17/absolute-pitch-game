@@ -1,9 +1,9 @@
 <img width="297" alt="2018-05-30 22 13 39" src="https://user-images.githubusercontent.com/38921656/40723380-c964b97a-6459-11e8-8206-e0a4f8e467e3.PNG">
 
-### 한글 소개
-우측 링크 참조 [README_KOR.md](https://github.com/kw-ic17/absolute-pitch-game/blob/master/README_KOR.md)
-
 # absolute-pitch-game
+
+)
+)https://github.com/kw-ic17/absolute-pitch-game/blob/master/README_KOR.md)
 
 This **absolute pitch game** is a game based on C programming. We are Kwangwoon Uniersity students and we managed to upload this game in Github. Currently this game is version1, and supports only Korean language; But we will update new versions including other language supports. Any contribution or comment is welcome!
 
