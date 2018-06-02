@@ -1,4 +1,4 @@
-">https://user-images.githubusercontent.com/38921656/40723380-c964b97a-6459-11e8-8206-e0a4f8e467e3.PNG">
+<img width="297" alt="2018-05-30 22 13 39" src="https://user-images.githubusercontent.com/38921656/40873359-58ce0f62-664e-11e8-8d8b-5d8a76cd67df.PNG">
 
 #절대음감 테스트 게임
 
