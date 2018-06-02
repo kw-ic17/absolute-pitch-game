@@ -313,12 +313,6 @@ int findOctave(char ch)
    if (ch == 'z' || ch == 'x' || ch == 'c' || ch == 'v' || ch == 'b' || ch == 'n' || ch == 'm') {
       Octave = 3;
    }
-/*   else if (ch == 'a' || ch == 's' || ch == 'd' || ch == 'f' || ch == 'g' || ch == 'h' || ch == 'j') {
-      Octave = 4;
-   }
-   else if (ch == 'q' || ch == 'w' || ch == 'e' || ch == 'r' || ch == 't' || ch == 'y' || ch == 'u') {
-      Octave = 5;
-   }*/
    else {
       Octave = 0;
    }
@@ -340,26 +334,6 @@ int findFreq(int octabe, char ch)
       else if (ch == 'n') freq = 220.00;
       else if (ch == 'm') freq = 246.94;
    }
-   /*
-   else if (octabe == 4) {
-      if (ch == 'a') freq = 261.63;
-      else if (ch == 's') freq = 293.66;
-      else if (ch == 'd') freq = 329.63;
-      else if (ch == 'f') freq = 349.23;
-      else if (ch == 'g') freq = 392.00;
-      else if (ch == 'h') freq = 440.00;
-      else if (ch == 'j') freq = 493.88;
-   }
-   else if (octabe == 5) {
-      if (ch == 'q') freq = 523.25;
-      else if (ch == 'w') freq = 587.33;
-      else if (ch == 'e') freq = 659.25;
-      else if (ch == 'r') freq = 698.46;
-      else if (ch == 't') freq = 783.99;
-      else if (ch == 'y') freq = 880.00;
-      else if (ch == 'u') freq = 987.77;
-   }
-   */
    else freq = 0;
    
    return 0;
