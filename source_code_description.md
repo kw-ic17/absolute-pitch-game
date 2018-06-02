@@ -177,7 +177,7 @@ if (ch == 'z') {
 ```
 
 ## 10. game_rand()
-: Outputs an `ASCII code` of `z`, `x`, `c`, `v`, `b`, `n` and `m` randomly.
+: Outputs an **ASCII code** of `z`, `x`, `c`, `v`, `b`, `n` and `m` randomly.
 
 ```
    int sound;
