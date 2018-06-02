@@ -2,7 +2,7 @@
 
 # absolute-pitch-game
 
-This **absolute pitch game** is a game based on C programming.
+This **absolute pitch game** is a game based on C programming. We are Kwangwoon Uniersity students and we managed to upload this game in Github. Currently this game is version1, and supports only Korean language; But we will update new versions including other language supports. Any contribution or comment is welcome!
 
 -----------
 
@@ -10,6 +10,10 @@ This **absolute pitch game** is a game based on C programming.
 
 >- Type in the **username**.
 >- Listen carefully to the randomly played sound. Only single note is played in one octave.
+You can listen to the sound for max 2 times.
 >- Guess the note of the sound and press key-button from 1 to 7.
 (If you think the note is 'C', press '1', or if you think the note is 'D', then press '2'. Press the smae for the rest.
+>- After repeating this for 10 times, you can get the test result.
+
+
 
