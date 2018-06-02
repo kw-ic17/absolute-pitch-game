@@ -340,12 +340,12 @@ int findFreq(int octabe, char ch)
 }
 int game_rand() //랜덤함수 숫자 뽑기
 {
-   int sound;//97~122를 받아야함.
+   int sound;
    srand((unsigned)time(NULL));
 
    while (1)
    {
-      sound = rand() % 122 + 1; //0~122
+      sound = rand() % 122 + 1;
       if (sound >= 97 && sound == 'z' || sound == 'x' || sound == 'c' || sound == 'v' || sound == 'b'|| sound == 'n' || sound == 'm') {
          break;
       }
