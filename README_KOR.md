@@ -2,6 +2,9 @@
 
 # 절대음감 테스트 게임
 
+### English Introduction
+Please View [README.md](https://github.com/kw-ic17/absolute-pitch-game/blob/master/README.md)
+
 이 **절대음감 게임**은 C언어로 만든 게임입니다.
 안녕하세요! 저희는 광운대학교 학생들로, C언어로 만든 이 게임을 깃허브에 올리게 되었습니다.
 현재는 초기 버전이고 한국어만 지원하지만 다른 언어로도 게임할 수 있도록 다양한 버전들을 올릴 계획입니다.
