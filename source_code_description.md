@@ -131,9 +131,11 @@ void replay()
 ## 6. guess(char )
 : Guess the pitch.
 
-###### 그림넣기 
+###### picture 1-1
 
-![](../Images/piano.png)
+   ![image](https://user-images.githubusercontent.com/39767315/40877275-dadc678c-66b8-11e8-9a12-f1ddcd298b3e.png)
+
+
 
 `z` corresponds to `do` and `do` is `1`, so regard it as the correct.
 `x`,`c`,`v`,`b`,`n`,`m` are in the same way.
