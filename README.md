@@ -12,10 +12,12 @@ This **absolute pitch game** is a game based on C programming. We are Kwangwoon 
 > **How to Play:**
 
 >- Type in the **username**.
->- Listen carefully to the randomly played sound. Only single note is played in one octave.
+>- Listen carefully to the randomly played sound. Only single note is played in three octaves.
 You can listen to the sound for max 2 times.
 >- Guess the note of the sound and press key-button from 1 to 7.
 (If you think the note is 'C', press '1', or if you think the note is 'D', then press '2'. Press the smae for the rest.
+>- If you got it right, then "You got it right" will be printed.
+>- Or if you got it wrong, then the program will tell you the right syllable name.
 >- After repeating this for 10 times, you can get the test result.
 
 
