@@ -1,7 +1,7 @@
 <img width="297" alt="2018-05-30 22 13 39" src="https://user-images.githubusercontent.com/38921656/40723380-c964b97a-6459-11e8-8206-e0a4f8e467e3.PNG">
 
-### Korean Introduction
-Please view [README_KOR.md](https://github.com/kw-ic17/absolute-pitch-game/blob/master/README_KOR.md)
+### 한글 소개
+우측 링크  [README_KOR.md](https://github.com/kw-ic17/absolute-pitch-game/blob/master/README_KOR.md)
 
 # absolute-pitch-game
 
