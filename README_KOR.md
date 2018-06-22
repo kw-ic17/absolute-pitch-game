@@ -20,6 +20,6 @@ Please View [README.md](https://github.com/kw-ic17/absolute-pitch-game/blob/mast
 >- 틀렸다면, 정답이 무엇이였는지 알려줍니다.
 >- 이 과정을 10번 반복한 뒤 진단 결과를 얻을 수 있습니다.
 
-###게임 실행 튜토리얼
+### 게임 실행 튜토리얼
 
 유튜브에 *튜토리얼* 을 업로드 했으니, 영상을 참조해주세요. [[게임실행 튜토리얼]](https://youtu.be/yx47QUXCJMA)
