@@ -51,13 +51,11 @@ void wannaplay()
    else if (choose == 2)
       exit(1);
    else {
-      printf("┌──────────────────────┐ \n");
-      printf("│                                            │ \n");
-      printf("│다시 입력해주세요.                          │ \n");
-      printf("│                                            │ \n");
-      printf("└──────────────────────┘ \n");
-      system("pause");
-      system("cls");
+      printf("┌──────────────────────────────────────┐ \n");
+      printf("│                                      │ \n");
+      printf("│            다시 입력하세요.          │ \n");
+      printf("│                                      │ \n");
+      printf("└──────────────────────────────────────┘ \n");
       wannaplay();
    }
 
@@ -81,7 +79,7 @@ void piano_keyboard()
    printf("│      │       │       │      │       │       │       │ \n");
    printf("│      │       │       │      │       │       │       │ \n");
    printf("│      │       │       │      │       │       │       │ \n");
-   printf("│      │       │       │      │       │       │       │ \n");
+   printf("│  1   │  2    │  3    │  4   │  5    │  6    │  7    │ \n");
    printf("│  도  │   레  │  미   │  파  │   솔  │   라  │   시  │ \n");
    printf("│      │       │       │      │       │       │       │ \n");
    printf("└─────────────────────────────────────────────────────┘ \n");
@@ -377,4 +375,6 @@ void Howmany(int user) //결과 출력
       printf("실력이 부족하군요! 연습해오세요.\n\n");
    }
    system("pause");
+   system("cls");
+   main();
 }
