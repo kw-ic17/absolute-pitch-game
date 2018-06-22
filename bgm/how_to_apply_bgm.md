@@ -39,7 +39,8 @@
 
 <img width="611" alt="2" src="https://user-images.githubusercontent.com/38921656/41760806-bac187ee-75e4-11e8-9869-73f866441470.PNG">
 
->***Step 3.*** .c 파일을 컴파일 하여 게임이 소리와 함께 잘 작동하는지 확인해보세요. 'startment.wav'에 대해서도 똑같은 방법으로 적용하면 됩니다.
+>***Step 3.*** .c 파일을 컴파일 하여 게임이 소리와 함께 잘 작동하는지 확인해보세요.
+'startment.wav'에 대해서도 똑같은 방법으로 적용하면 됩니다.
 
 
 
