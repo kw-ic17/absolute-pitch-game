@@ -4,16 +4,16 @@
                 
 * 우리는 *****Beep 함수*****를 **절대 음감 게임**의 핵심 함수로 사용할 것이다.                
 * 이 게임에서 소리를 내는 것은 아주 필수적인 부분이다 .               
-* beep Use the beep function to produce a note (beep).                
-* `#include <windows.h>` Create a header file.               
-* `freq`: Frequency, in units of hertz                
-* `duration`: Negative duration, in milliseconds.              
-* 1000 = 1 second              
+* `Beep function`을 사용하여 신호음을 만듭니다.                
+* `#include <windows.h>`헤더파일 생성해야한다.             
+* `freq`: 주파수, 헤르츠 단위                
+* `duration`: 부정적인 지속시간 (1000분의 1초).              
+* 1000 = 1초           
                
 ## 1. wannaplay()                 
-: `Implementation of game start screen`                
-               
-A beginning notice appears with **bgm**.              
+: '게임 화면을 시작하는 함수이다.'                
+   시작 알림과 동시에 사용자가 설정한 **bgm**가 나오게 된다.
+   
 ```                
 void wannaplay()               
 {                
@@ -50,7 +50,7 @@ void wannaplay()
 ```               
                 
 ## 2. name()                
-: Enter the player name.               
+: 사용자 이름을 입력하는 함수이다.               
               
 ```                
 void name()               
@@ -61,7 +61,7 @@ void name()
 }               
 ```                
 ## 3. start()                
-: Guide sound float out before the game starts.                
+: 게임이 시작되기 전에 가이드 소리가 나오게 하는 함수이다.                
                 
 ```                
 void start()               
@@ -78,7 +78,7 @@ void start()
 ```                
                 
 ## 4. piano_keyboard()                
-: Show the piano keyboard                
+: 피아노 키보드를 콘솔 창에 표시하는 함수이다.               
                 
 ```                
 void piano_keyboard()                
@@ -102,7 +102,10 @@ void piano_keyboard()
 ```                
                
 ## 5. replay()                
-: You can hear the sound again.               
+: 사용자가 다시 듣길 원할 때 사용되는 함수이다.
+: 한번 가이드 사운드를 들려준 후, "Would you like to hear it again?"라는 문구를
+  출력하여 사용자가 원하면 'yes'인 1을, 원치 않을 경우 'no'인 2를 선택할 수 있게
+  설정하는 함수이다.
                
 ```               
 void replay()               
@@ -129,7 +132,11 @@ void replay()
 ```                
                 
 ## 6. guess(char )               
-: Guess the pitch.                
+: pitch를 맞춰주는 함수이다.
+: 다음 그림과 같이 키보드 속의 'z'가 해당하는 것이 1이라 간주하는 식으로, 숫자순으로 
+  'x,c,v,b,n,m'도 동일하게 적용된다.
+: z=1, x=2, c=3, v=4, b=5, n=6, m=7로 적용되어, 사용자가 옳다고 생각하는 숫자를 선택하여,
+  결과를 도출하는 함수이다.
                 
 ###### picture 1-1               
                
@@ -150,7 +157,7 @@ if (ch == 'z') {
 : `               
                 
 ## 8. findOctave(char )               
-: The basic octave is assigned to 3.               
+: 기본 옥타브는 3에 할당하는 함수이다.               
 ```                
    if (ch == 'z' || ch == 'x' || ch == 'c' || ch == 'v' || ch == 'b' || ch == 'n' || ch == 'm') {               
       Octave = 3;               
@@ -162,7 +169,7 @@ if (ch == 'z') {
 ```               
                 
 ## 9. findFreq(int , char )               
-: Assign each sound frequency to the keyboard.                
+: 키보드에 각 사운드 주파수를 할당하는 함수이다.                
 ```               
    if (octabe == 3) {                
       if (ch == 'z') freq = 130.81;               
@@ -177,7 +184,7 @@ if (ch == 'z') {
 ```                
                 
 ## 10. game_rand()                
-: Outputs an **ASCII code** of `z`, `x`, `c`, `v`, `b`, `n` and `m` randomly.                
+: `z`, `x`, `c`, `v`, `b`, `n` , `m`의 **ASCII code**를 임의로 출력하는 함수이다.                
                 
 ```                
    int sound;               
@@ -194,7 +201,7 @@ if (ch == 'z') {
 ```                
                 
 ## 11. Howmany(int )                
-: Print out the results.                
+: 사용자의 절대음감 결과를 출력하는 함수이다.                
 ```                
 void Howmany(int user)                 
 {                
