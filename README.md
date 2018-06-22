@@ -20,5 +20,6 @@ You can listen to the sound for max 2 times.
 >- Or if you got it wrong, then the program will tell you the right syllable name.
 >- After repeating this for 10 times, you can get the test result.
 
-[![Playing Tutorial]](https://youtu.be/yx47QUXCJMA) 
+#### Playing Tutorial
+We have uploaded *how to play* Tutorial in Youtube. Check out our video [[Playing Tutorial]](https://youtu.be/yx47QUXCJMA) 
 
